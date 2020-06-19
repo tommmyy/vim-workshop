@@ -1,0 +1,42 @@
+- <C-v> I and A method
+- <C-v> Surround method
+- `gv`
+- V + :norm -> `<C-v><Esc>` will write the `^[`
+
+asd asd asd asd asd;
+asd asd asd asd asd;
+asd asd asd asd asd;
+asd asd asd asd asd;
+asd asd asd asd asd;
+asd asd asd asd asd;
+asd asd asd asd asd;
+
+
+// to list of pairs
+// surround without vim-surrond - ctrl-o trick
+// use :norm
+// <C-v><Esc>
+
+{
+    "hej.txt": "txt",
+    "hej.html": "html",
+    "hej.TxT": "TxT",
+    "hej.TEX": "TEX",
+    ".txt": "txt",
+    ".html": "html",
+    ".html5": "html5",
+    ".x.yyy": "yyy",
+}
+
+to:
+
+[
+    ["hej.txt", "txt"],
+    ["hej.html", "html"],
+    ["hej.TxT", "TxT"],
+    ["hej.TEX", "TEX"],
+    [".txt", "txt"],
+    [".html", "html"],
+    [".html5", "html5"],
+    [".x.yyy", "yyy"],
+]

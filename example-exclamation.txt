@@ -1,0 +1,1 @@
+console.log(Array(10).fill(0).map((x, i) => i));
